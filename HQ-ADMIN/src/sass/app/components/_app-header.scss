@@ -1,0 +1,48 @@
+.app-header{
+    position: fixed;
+    left:0;
+    right:0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    background-color: $primary-hex;
+    z-index: 1050;
+    padding-right:15px ;
+}
+
+.app-header__logo{
+    flex:1 0 auto;
+    color: #fff;
+    font-family: $app-font-serif;
+    text-align: center;
+    font-size: 26px;
+    padding: 0 15px;
+    line-height:50px;
+}
+
+.app-search{
+    position: relative;
+    display: flex;
+    align-self: center;
+    margin-right: 15px;
+
+}
+
+.app-search__input{
+    border: 0;
+    padding: 5px 10px;
+    padding-right: 30px;    
+    border-radius: 2px;
+    background-color: rgba(255,255,255,.8);
+}
+
+.app-search__button{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding: 0 10px;
+    border: 0;
+    color: rgba(0,0,0,.8);
+    background: none;
+    cursor: pointer;
+}
