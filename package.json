@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-gettingstarted",
+  "version": "1.0.0",
+  "description": "Node Crash Course",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dudi1896/NodeJSBeginner.git"
+  },
+  "author": "Denzel Udemba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dudi1896/NodeJSBeginner/issues"
+  },
+  "homepage": "https://github.com/Dudi1896/NodeJSBeginner#readme"
+}
